@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('code'){
             steps{
-                git https://github.com/lickyen/java-project.git
+                git 'https://github.com/lickyen/java-project.git'
             }
         }
         stage('Build'){
